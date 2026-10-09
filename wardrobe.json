@@ -1,0 +1,165 @@
+{
+ "cats": [
+  {
+   "id": "c1791273877107",
+   "name": "Соралисия"
+  },
+  {
+   "id": "c1791275030086",
+   "name": "Сорабелла"
+  },
+  {
+   "id": "c1791526987608",
+   "name": "Лилит"
+  }
+ ],
+ "items": [
+  {
+   "id": "i1791273989666",
+   "cat": "c1791273877107",
+   "desc": "Main color: Ivory / off-white. Dress: Off-the-shoulder corseted gown with heavy draping and gathered construction through the hips and skirt. Silhouette: Hourglass shape with a defined waist and fitted bodice. Length: Full-length gown reaching the floor. Sleeves: Detached semi-sheer fitted sleeves extending to the wrists. Footwear: Pointed ivory heeled boots integrated into the look. Accessories: Delicate layered silver chains and earrings. Hairstyle: Long loose hair with soft texture and curtain bangs.",
+   "img": "images/i1791273989666.jpg",
+   "fav": true
+  },
+  {
+   "id": "i1791275249178",
+   "cat": "c1791526987608",
+   "desc": "The outfit consists of a dark chocolate-brown cropped lace-up blouse made from a lightweight semi-sheer fabric with a soft, slightly textured surface. The blouse has a deep V-neckline edged with black-brown floral lace, long voluminous sleeves, and a fitted waist that ends above the hips. The front is decorated with several narrow leather-look straps and metal eyelets, while the sleeves become gathered and slightly loose toward the wrists. Over the blouse, the character wears a pair of dark brown low-rise cargo trousers made from heavy cotton or cotton twill, with a relaxed, wide-leg silhouette extending to the ankles. The trousers feature multiple utility pockets, belt loops, a dark brown leather belt with a rectangular metal buckle, long hanging straps, and additional stitched panels around the thighs and knees. A pair of dark brown platform shoes or low boots completes the outfit, while the accessories include a small structured brown handbag with metal hardware and pale dusty-pink fluffy pom-poms attached",
+   "img": "images/i1791275249178.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791275265913",
+   "cat": "c1791526987608",
+   "desc": "The outfit is centered around a fitted dark chocolate-brown satin corset with a structured boned construction, narrow shoulder straps, and a deep sweetheart neckline decorated with black-brown floral lace. The satin has a smooth, glossy surface that reflects light differently across the fitted bodice, while the corset extends to the natural waist with a slightly pointed lower edge. Over it, the character wears a long sheer brown lace or chiffon robe with wide sleeves, a loose open front, and ornate floral lace panels around the cuffs and edges. The robe reaches approximately to the ankles and has a long flowing hem that extends slightly behind the feet. The main skirt is a dark chocolate-brown satin maxi skirt with a fitted upper section and a high thigh slit on one side, extending from the hip almost to the floor. The footwear consists of delicate dark brown platform sandals with thin ankle straps and high heels, and the accessories include a small dark brown chain handbag, layered silver-toned necklaces",
+   "img": "images/i1791275265913.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791276167888",
+   "cat": "c1791526987608",
+   "desc": "Main color: Black.\nDress: Gothic floor-length gown with a fitted bodice, high neckline, tightly ruched waist and hips, and layered flowing skirt with intricate lace panels.\nSilhouette: Hourglass shape with a strongly defined waist and fitted upper body, gradually widening into a dramatic trailing skirt.\nLength: Full-length gown reaching and pooling on the floor.\nSleeves: Long fitted semi-sheer sleeves extending to the wrists, with delicate lace detailing along the edges.\nFootwear: Black pointed heeled shoes mostly concealed beneath the long skirt.\nAccessories: Ornate black gothic tiara and a long sheer black lace-edged bridal veil falling to the floor.\nHairstyle: Very long loose wavy copper-red hair with soft curtain bangs framing the face.",
+   "img": "images/i1791276167888.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791526851300",
+   "cat": "c1791273877107",
+   "desc": "Main color: Dusty rose / muted pink. Dress: Off-the-shoulder corseted gown with a structured sweetheart bodice, ruched fabric panels, layered translucent draping, and intricate silver chain embellishments around the waist and skirt. Silhouette: Hourglass shape with a fitted bodice and defined waist. Length: Asymmetrical floor-length gown with a short inner skirt and long trailing sheer panels. Sleeves: Detached, voluminous sheer sleeves with ruffled edges and hanging fabric strips. Footwear: Pointed dusty rose high heels with delicate crisscross ankle straps. Accessories: Ornate layered silver choker, dangling chains, decorative waist chains, and long earrings. Hairstyle: Red hair styled in a messy high bun with loose face-framing strands and wispy bangs.",
+   "img": "images/i1791526851300.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791526913282",
+   "cat": "c1791273877107",
+   "desc": "Main color: Black with ivory accents. Top: Ivory satin corset with a structured sweetheart neckline, vertical boning, lace trim, and intricate front lacing. Outerwear: Long black tailored coat with exaggerated shoulders, layered lapels, fitted sleeves, lace inserts, and distressed asymmetrical tails. Bottoms: Black fitted shorts with layered fabric panels, decorative chains, and dangling silver hardware. Silhouette: Defined waist with a structured upper body and dramatic elongated outerwear. Length: Coat extending to the ankles, with irregular trailing panels. Sleeves: Long fitted black sleeves with lace detailing and distressed edges. Footwear: Black pointed high heels with crisscross lace-up straps around the ankles and lower legs. Accessories: Layered silver waist chains, rings, dark gloves, and a black choker with metallic details. Hairstyle: Long straight copper-red hair with blunt bangs, worn loose over the shoulders and down the back.",
+   "img": "images/i1791526913282.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791526954768",
+   "cat": "c1791273877107",
+   "desc": "Main color: Ivory / off-white with black spotted patterns. Dress: Off-the-shoulder corseted gown with a fitted sweetheart bodice, ruched construction, asymmetrical gathered draping across the hips, and layered translucent fabric. Silhouette: Hourglass shape with a defined waist and fitted bodice. Length: Floor-length gown with a high front slit, an asymmetrical skirt, and a long trailing overskirt. Sleeves: Detached, voluminous sheer sleeves with layered ruffles and irregular black spots. Footwear: Black pointed high heels with ankle straps and metallic buckles. Accessories: Layered silver necklaces, ornate earrings, decorative waist chains, and a slim choker. Hairstyle: Very long, voluminous curly copper-red hair worn loose, with a small braided section along the crown and loose strands framing the face.",
+   "img": "images/i1791526954768.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791527096183",
+   "cat": "c1791273877107",
+   "desc": "Main color: Hot pink / fuchsia with black accents. Dress: Fitted Chinese qipao-inspired dress with a high mandarin collar, short sleeves, a diagonal front closure, and black calligraphic patterns printed across the fabric. Silhouette: Close-fitting hourglass shape with a defined waist and fitted hips. Length: Floor-length dress with a high side slit extending to the upper thigh. Sleeves: Short, fitted cap sleeves. Footwear: Black open-toe high-heeled sandals with thin ankle straps. Accessories: Black lace fingerless gloves, a small structured black handbag with a chain handle, dangling earrings, and a decorative thigh chain with a sun-shaped ornament. Hairstyle: Long, loose copper-red hair with soft waves, curtain bangs, and face-framing strands.",
+   "img": "images/i1791527096183.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791527138932",
+   "cat": "c1791273877107",
+   "desc": "Main color: Ivory / antique white with black accents. Top: Structured ivory corset with a sweetheart neckline, vertical boning, front lacing, lace inserts, and distressed sheer fabric along the hem. Bottoms: Short fitted ivory shorts with black lace trim, decorative straps, and metallic chain details. Outer layer: Long, sheer ivory overskirt with torn edges, delicate lace detailing, and asymmetrical trailing panels. Silhouette: Hourglass shape with a fitted bodice, defined waist, and short fitted bottoms. Length: Upper-thigh shorts with floor-length translucent overskirt panels. Sleeves: Detached, sheer ivory sleeves extending to the wrists, with loose fabric, ruffled cuffs, and distressed edges. Footwear: Black thigh-high platform boots with pointed toes, high heels, and intricate lace patterns. Accessories: Black belt with silver hardware, layered silver necklaces, a cross pendant, dangling earrings, and decorative chains attached to the waist. Hairstyle: Long, straight copper-red hair with blunt bangs, worn loose down the back.",
+   "img": "images/i1791527138932.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791530860215",
+   "cat": "c1791275030086",
+   "desc": "Main color: Ivory / off-white.  \nDress: Luxurious off-the-shoulder corseted gown with a structured ivory satin bodice, delicate gold embroidery, decorative corset lacing, and layered ruffles. The fitted bodice flows into a gathered, asymmetrical skirt with cascading fabric panels, a high front slit, and a long flowing train.  \nSilhouette: Hourglass shape with a tightly fitted waist, structured corset, and voluminous layered skirt.  \nLength: Full-length gown reaching the floor with an extended train.  \nSleeves: Detached oversized off-the-shoulder puff sleeves made from sheer ivory fabric, gathered at the upper arms and wrists.  \nFootwear: Pointed ivory high heels with delicate gold detailing. White lace thigh-high stockings with intricate floral patterns.  \nAccessories: Pearl choker, layered delicate gold chains, dangling pearl and gold earrings, fine gold body chains, and decorative gold clasps throughout the corset and skirt.  \nHairstyle: Very long, voluminous ginger-red hair in loose, soft curls, with delicate metallic ornaments woven into the sides.",
+   "img": "images/i1791530860215.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791530912188",
+   "cat": "c1791275030086",
+   "desc": "Main color: Dark olive green / black.  \nDress: Dramatic witch gown with a deep plunging neckline, fitted wrap-style bodice, cinched waist, and layered asymmetrical skirt. Black fabric forms a long trailing underskirt, while dark olive-green panels overlap at the front and sides, revealing the legs through a high slit. Decorative belts, buckles, and gold chains wrap around the waist and hips.  \nSilhouette: Hourglass shape with a fitted bodice, defined waist, voluminous sleeves, and flowing layered skirt.  \nLength: Floor-length gown with a long black train and an asymmetrical front opening.  \nSleeves: Oversized gathered bishop sleeves in dark olive-green fabric, with voluminous shoulders and fitted black cuffs.  \nFootwear: Black pointed high heels with delicate gold ankle chains.  \nAccessories: Wide-brimmed pointed black witch hat decorated with feathers, dried botanical ornaments, and antique metallic details; black gloves, layered gold necklaces, a decorative waist belt, dangling earrings, and delicate gold chains.  \nHairstyle: Very long, thick ginger-red hair with abundant loose waves flowing over the shoulders and down the back.",
+   "img": "images/i1791530912188.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531308570",
+   "cat": "c1791275030086",
+   "desc": "Main color: Pale lavender / silver / blush pink.  \nDress: Romantic rococo-inspired ball gown with a structured silver-lavender corset, delicate embroidered patterns, and a blush-pink satin overskirt panel tied into a large decorative bow at the waist. Multiple layers of lavender ruffles cascade over the hips and skirt, while silver detailing and delicate draped chains decorate the bodice and waist. The skirt has a structured, wide shape with visible vertical support details beneath the front panels.  \nSilhouette: Hourglass shape with a fitted corseted bodice, defined waist, structured hips, and a wide, voluminous layered skirt.  \nLength: Full-length gown reaching the floor with a long trailing hem.  \nSleeves:Detached off-the-shoulder puff sleeves in pale lavender fabric, featuring multiple layers of ruffles and sheer gathered sections.  \nFootwear: Pale lavender or blush-pink pointed heels, mostly concealed beneath the gown.  \nAccessories: Delicate layered gold chains, fine waist chains, dangling earrings, pearl and silver hair ornaments, floral decorations, and a large blush-pink satin bow at the waist.  \nHairstyle: Very long, voluminous ginger-red hair with soft loose curls, partially pinned back with delicate pale floral and metallic ornaments.",
+   "img": "images/i1791531308570.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531508809",
+   "cat": "c1791275030086",
+   "desc": "Main color: Deep burgundy / wine red / antique gold.\nDress: Dramatic gothic gown with a fitted burgundy corset, structured bustier cups, ornate gold embroidery, and delicate metallic chains running down the bodice. The skirt is made of multiple layers of sheer burgundy fabric with cascading ruffled edges and gathered draping around the hips. A high front slit reveals the legs, while decorative gold chains and medallions hang vertically from the waist.\nSilhouette: Hourglass shape with a tightly fitted corseted waist, structured bust, and flowing layered skirt.\nLength: Floor-length gown with a long trailing hem and an asymmetrical front opening.\nSleeves: Long detached sheer burgundy sleeves with loose draping, ruffled edges, and fitted decorative cuffs.\nFootwear: Black pointed high heels with antique gold embellishments and delicate ankle straps.\nAccessories: Sheer dark burgundy veil with gold embroidery, ornate gold choker, layered necklaces, dangling gold medallions, fine body chains, decorative hip chains, and intricate gold head jewelry.\nHairstyle: Very long, voluminous ginger-red hair with loose curls cascading over the shoulders and down the back, partially covered by a sheer veil.",
+   "img": "images/i1791531508809.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531533657",
+   "cat": "c1791275030086",
+   "desc": "Main color: Black / champagne gold / antique gold.\nDress: Gothic evening gown with a black structured bustier, a sweetheart neckline, delicate gold trim, and decorative gold chains crossing the bodice. The fitted waist opens into a layered black skirt with gathered draping and a champagne-gold embroidered underskirt. The outer black panels are arranged asymmetrically to reveal the golden fabric and legs through a high slit. Fine gold embroidery follows the edges of the skirt.\nSilhouette: Hourglass shape with a fitted corset, sharply defined waist, and flowing asymmetrical skirt.\nLength: Floor-length gown with a long black train and a high front slit.\nSleeves: Detached long black sheer sleeves with loose flowing fabric, delicate gold trim, and decorative cuffs.\nFootwear: Black pointed high heels with gold detailing and delicate gold ankle straps.\nAccessories: Black veil with antique gold embroidery, gold choker, layered delicate necklaces, gold body chains, ornate waist chains, decorative gold filigree ornaments, and gold hair jewelry.\nHairstyle: Very long, voluminous ginger-red hair with loose cascading curls and soft face-framing strands, partially covered by a black sheer veil.",
+   "img": "images/i1791531533657.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531619006",
+   "cat": "c1791275030086",
+   "desc": "Main color: Icy blue / silver / pale grey.\nDress: Off-the-shoulder bridal gown with a structured silver-blue corset, embroidered floral details, delicate lacing, and decorative silver chains across the bodice. The fitted waist transitions into a layered skirt made of sheer, gathered fabric with cascading ruffles and asymmetrical draping. The front of the skirt features a high slit, while fine chains and jeweled ornaments are attached along the hips.\nSilhouette: Hourglass shape with a fitted corseted bodice, defined waist, and voluminous flowing skirt.\nLength: Full-length gown reaching the floor with a long, translucent train.\nSleeves: Detached off-the-shoulder puff sleeves made from sheer icy-blue fabric, with layered ruffles, gathered sections, and fitted cuffs.\nFootwear: Silver pointed high heels with delicate ankle chains and metallic embellishments.\nAccessories: Long translucent bridal veil, silver choker, layered fine necklaces, dangling crystal earrings, delicate waist chains, jeweled corset ornaments, and silver hair accessories.\nHairstyle: Very long, thick ginger-red hair with soft, loose waves and face-framing curls, partially covered by a sheer silver-blue veil.",
+   "img": "images/i1791531619006.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531827238",
+   "cat": "c1791275030086",
+   "desc": "Main color: Black / dark burgundy / red tartan.\nDress: Gothic-inspired fitted black corset with a plunging neckline, structured boning, decorative metallic clasps, and a narrow waist belt. The corset is paired with a short red-and-black tartan skirt featuring layered asymmetrical panels, gathered fabric, and a high front opening. A dramatic oversized fur coat frames the entire outfit.\nSilhouette: Hourglass shape with a fitted corset, defined waist, short layered skirt, and oversized outerwear.\nLength: Short tartan skirt ending at the upper thighs; oversized fur coat reaching nearly to the ankles.\nSleeves: Extremely voluminous long fur sleeves with thick black and dark burgundy fur, extending to the hands.\nFootwear: Black lace-up platform combat boots with thick soles, multiple metallic buckles, and tall shafts reaching below the knees.\nAccessories: Black decorative choker, layered chains, metallic corset clasps, waist chains, gothic rings, and a small black hair bow.\nHairstyle: Long, voluminous ginger-red hair styled in loose waves with soft curls framing the face and a small black ribbon attached near the side.",
+   "img": "images/i1791531827238.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531843838",
+   "cat": "c1791275030086",
+   "desc": "Main color: Dark brown / taupe / charcoal / antique gold.\nDress: Tailored Victorian-inspired outfit combining a fitted brown plaid jacket with a deep V-neckline, structured lapels, decorative buttons, and a sharply cinched waist. The jacket extends into asymmetrical pointed panels over a layered dark brown skirt. The skirt features gathered charcoal fabric, cascading ruffles, and sheer black lace panels. Fine metallic chains decorate the waist and hips.\nSilhouette: Hourglass shape with a fitted tailored bodice, sharply defined waist, structured hips, and an asymmetrical layered skirt.\nLength: The front of the skirt reaches above the knees, while the back features longer layered panels extending toward the calves.\nSleeves: Long fitted brown plaid sleeves with structured shoulders, layered cuffs, and delicate lace trim at the wrists.\nFootwear: Dark brown lace-up platform ankle boots with high block heels, tall shafts, and decorative buckles.\nAccessories: Gold-toned buttons, layered chains, antique gold waist chains, delicate lace choker, ornamental brooches, black ribbon hair bow, and decorative metallic clasps.\nHairstyle: Long, voluminous ginger-red hair with loose flowing curls, partially swept back and secured with a black ribbon bow.",
+   "img": "images/i1791531843838.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791531864190",
+   "cat": "c1791275030086",
+   "desc": "Main color: Pale icy blue / silver / ivory.\nDress: Rococo-inspired gown with a fitted silver-blue corset, delicate embroidery, a structured waist, and multiple layers of gathered pale-blue fabric. The skirt features cascading ruffles, draped satin panels, delicate silver trim, and an asymmetrical front opening. The shorter front section reveals the upper thighs and lace stockings, while the back extends into a long flowing train.\nSilhouette: Hourglass shape with a fitted corseted bodice, defined waist, voluminous sleeves, and a layered high-low skirt.\nLength: Shorter front hem above the knees with a long floor-length train at the back and sides.\nSleeves: Detached oversized pale-blue puff sleeves made from sheer gathered fabric, with multiple ruffled layers and fitted decorative cuffs.\nFootwear: Pale ivory platform high heels with thick soles, ankle straps, delicate ribbons, and lace-up detailing.\nAccessories: White floral hair ornaments, delicate silver necklaces, jeweled waist chains, small crystal earrings, fine silver embroidery, and a miniature ivory handbag with dangling chains.\nHairstyle: Long, voluminous ginger-red hair with soft flowing curls, partially pinned back with white flowers on both sides.",
+   "img": "images/i1791531864190.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791532335992",
+   "cat": "c1791273877107",
+   "desc": "Main color: Distressed ivory / black / faded beige.\nDress: Deconstructed gothic ensemble with a fitted ivory corset featuring antique newspaper-like printed patterns, visible boning, distressed fabric, decorative seams, and frayed lace edges. Black draped fabric forms a long asymmetrical skirt with gathered folds and a high slit. A structured black outer layer sits off the shoulders, with angular shoulder panels and long trailing fabric. Narrow distressed ivory strips hang from the corset and waist.\nSilhouette: Hourglass shape with a fitted corseted bodice, defined waist, narrow hips, and a long asymmetrical skirt.\nLength: Floor-length black skirt with an extended train and a high front slit.\nSleeves: Long black detached sleeves with oversized angular shoulders, loose layered fabric, and irregular edges.\nFootwear: Black pointed high heels with thin ankle straps, partially visible beneath the skirt.\nAccessories: Layered gothic necklaces, metallic cross pendant, decorative chains, multiple rings, distressed fabric charms, and a long dangling silver cross accessory.\nHairstyle: Long ginger-red hair styled in a loose, slightly messy updo with a high bun, wispy bangs, and loose strands framing the face.",
+   "img": "images/i1791532335992.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791532350144",
+   "cat": "c1791273877107",
+   "desc": "Main color: Aged ivory / beige / black.\nDress: Dramatic deconstructed gown with tightly gathered ivory fabric wrapping across the bust, waist, and hips in diagonal folds. The fitted bodice transitions into a ruched asymmetrical skirt with distressed edges, irregular fabric strips, and a high front slit. A contrasting black outer cape drapes over the shoulders and falls in long, loose panels behind the body. Delicate printed patterns and distressed sections are integrated into the ivory fabric.\nSilhouette: Hourglass shape with a tightly wrapped fitted bodice, sharply defined waist, gathered hips, and a flowing asymmetrical skirt.\nLength: Floor-length gown with a high front slit, uneven trailing hem, and an extended black cape.\nSleeves: Detached black sheer sleeves with loose layered fabric, irregular draping, and distressed edges.\nFootwear: Black pointed high heels with delicate ankle straps and metallic accents.\nAccessories: Layered silver necklaces, dark metallic choker, gothic cross pendant, decorative body chains, multiple rings, and distressed hanging fabric details.\nHairstyle: Long ginger-red hair with a loose high bun, wispy bangs, and long strands falling freely over the shoulders.",
+   "img": "images/i1791532350144.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1791532367215",
+   "cat": "c1791273877107",
+   "desc": "Main color: Black / charcoal grey / faded beige.\nDress: Structured black gothic evening dress with a deep angular neckline, sharply pointed off-the-shoulder panels, and a fitted bodice featuring subtle black pinstripes. The waist is tightly cinched with a structured corset construction. The asymmetrical skirt combines black pinstriped fabric with distressed beige printed panels, gathered draping, and a high slit. Long irregular fabric strips hang from the waist and skirt.\nSilhouette: Hourglass shape with angular shoulders, a structured fitted bodice, narrow waist, and an asymmetrical skirt.\nLength: Floor-length black skirt with a high front slit and an extended trailing hem.\nSleeves: Long fitted black pinstriped sleeves with sharply structured shoulders, angular cuffs, and distressed decorative fabric strips.\nFootwear: Black pointed high heels with thin ankle straps.\nAccessories: Layered silver chains, gothic choker, multiple rings, decorative body chains, dangling earrings, distressed printed fabric ornaments, and a dark metallic necklace.\nHairstyle: Ginger-red hair styled in a loose high bun with wispy bangs, a few loose face-framing strands, and a small decorative hair ornament.",
+   "img": "images/i1791532367215.jpg",
+   "fav": false
+  }
+ ]
+}

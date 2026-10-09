@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Мой гардероб</title>
+<script>
+/* Палитра считается из одного цвета: меняй hex в PAL или добавляй свои. */
+const PAL=[["bordo","Бордо","#9B2D30"],["carmine","Кармин","#960018"],["marsala","Марсала","#955251"],["garnet","Гранат","#7A1F3D"]];
+let PC="bordo";try{PC=localStorage.getItem("wdc")||"bordo"}catch(e){}
+function hslOf(hex){const n=parseInt(hex.slice(1),16),r=(n>>16&255)/255,g=(n>>8&255)/255,b=(n&255)/255,mx=Math.max(r,g,b),mn=Math.min(r,g,b),l=(mx+mn)/2,d=mx-mn;let h=0,s=0;if(d){s=d/(1-Math.abs(2*l-1));h=mx===r?((g-b)/d)%6:mx===g?(b-r)/d+2:(r-g)/d+4;h=Math.round(((h*60)+360)%360)}return[h,Math.round(s*100),Math.round(l*100)]}
+function applyPal(){
+ const p=PAL.find(x=>x[0]===PC)||PAL[0],[h,s]=hslOf(p[2]),dk=matchMedia("(prefers-color-scheme: dark)").matches,st=document.documentElement.style;
+ const v=dk?{"--bg":`hsl(${h} 38% 7%)`,"--card":`hsl(${h} 28% 11%)`,"--tx":`hsl(${h} 30% 93%)`,"--mut":`hsl(${h} 14% 68%)`,"--ac":`hsl(${h} ${Math.min(72,Math.max(48,s))}% 58%)`,"--ac2":`hsl(${h} 38% 17%)`,"--bd":`hsl(${h} 28% 21%)`,"--on":"#fff"}
+  :{"--bg":`hsl(${h} 45% 97%)`,"--card":"#fff","--tx":`hsl(${h} 30% 12%)`,"--mut":`hsl(${h} 12% 46%)`,"--ac":p[2],"--ac2":`hsl(${h} 45% 92%)`,"--bd":`hsl(${h} 35% 87%)`,"--on":"#fff"};
+ for(const k in v)st.setProperty(k,v[k]);
+}
+applyPal();matchMedia("(prefers-color-scheme: dark)").addEventListener("change",applyPal);
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Manrope:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+--tw:128px;--ar:9/20;--pbg:#fff;--gw:140px;--bg:#fdf6f8;--card:#fff;--tx:#2b2226;--mut:#8a7a80;--ac:#d6578a;--ac2:#fbe1ec;--bd:#f0d9e2;--on:#fff}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1c1619;--card:#272024;--tx:#f3e8ed;--mut:#b3a0a8;--ac:#ef7aa8;--ac2:#3a2530;--bd:#3d2d35;--on:#1c1619}}
+body[data-sz="s"]{--tw:128px;--ar:128/170;--pbg:var(--ac2);--gw:150px}
+body[data-sz="l"]{--tw:164px;--gw:190px}
+:root[data-theme="dark"]{--bg:#1c1619;--card:#272024;--tx:#f3e8ed;--mut:#b3a0a8;--ac:#ef7aa8;--ac2:#3a2530;--bd:#3d2d35;--on:#1c1619}
+*{box-sizing:border-box;scrollbar-width:none;-webkit-tap-highlight-color:transparent}
+*::-webkit-scrollbar{display:none}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}[hidden]{display:none!important}.ro .ed{display:none!important}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
+h1,h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:700;margin:0}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px 110px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);padding:16px 0 6px;display:flex;align-items:center;gap:8px}
+h1{font-size:34px;flex:1;line-height:1.1}
+button{font:inherit;font-weight:600;border:0;border-radius:14px;padding:11px 16px;background:var(--ac);color:var(--on);cursor:pointer;display:inline-flex;align-items:center;justify-content:center;gap:7px}
+button.ghost{background:var(--ac2);color:var(--ac)}
+button.ic{padding:0;width:44px;height:44px}
+button.lk{background:none;color:var(--ac);padding:6px 0;font-size:14px}
+.dot{position:relative}.dot::after{content:'';position:absolute;top:6px;right:6px;width:9px;height:9px;border-radius:50%;background:#ffd24a;border:2px solid var(--bg)}
+.sh{margin-top:20px}
+.hd{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:10px}
+.hd h2{font-size:26px}
+.rw{display:flex;gap:10px;overflow-x:auto;padding-bottom:4px}
+.t{flex:none;width:var(--tw);cursor:pointer}
+.p{aspect-ratio:var(--ar);border-radius:16px;background:var(--pbg);position:relative;overflow:hidden;border:1px solid var(--bd)}
+.p img{width:100%;height:100%;object-fit:contain;display:block}
+.t span{display:block;font-size:13px;color:var(--mut);margin-top:6px;line-height:1.3;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.hb{position:absolute;top:7px;right:7px;width:26px;height:26px;border-radius:50%;background:var(--bg);color:var(--ac);display:flex;align-items:center;justify-content:center}
+.hb .i{width:15px;height:15px;fill:currentColor}
+.addt{flex:none;width:var(--tw);aspect-ratio:var(--ar);border:2px dashed var(--ac);background:none;color:var(--ac);border-radius:16px}
+.addt .i{width:30px;height:30px}
+.newshelf{width:100%;height:76px;margin-top:24px;background:none;border:2px dashed var(--ac);color:var(--ac);border-radius:16px}
+.gr{display:grid;grid-template-columns:repeat(auto-fill,minmax(var(--gw),1fr));gap:14px;margin-top:14px}
+.gr .t{width:auto}.gr .p,.gr .addt{width:100%}
+.cb{display:flex;gap:8px;align-items:center;margin-top:10px;flex-wrap:wrap}
+.empty{color:var(--mut);text-align:center;padding:48px 16px;display:flex;flex-direction:column;align-items:center;gap:14px;grid-column:1/-1}
+nav{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--card);border-top:1px solid var(--bd);display:flex;justify-content:space-around;padding:8px 0 calc(8px + env(safe-area-inset-bottom,0px))}
+nav button{background:none;color:var(--mut);flex-direction:column;gap:3px;font-size:12px;min-width:90px;padding:6px}
+nav button.on{color:var(--ac)}nav .i{width:24px;height:24px}
+#det{position:fixed;inset:0;z-index:30;background:var(--bg);overflow-y:auto}
+.dp{height:62vh;min-height:360px;background:#fff;position:relative}
+.dp img{width:100%;height:100%;object-fit:contain;display:block}
+.ov{position:absolute;top:calc(14px + env(safe-area-inset-top,0px));background:var(--bg);color:var(--tx)}
+.ov.l{left:14px}.ov.r{right:14px;color:var(--ac)}.ov.on .i{fill:currentColor}
+.db{max-width:560px;margin:0 auto;padding:16px 16px calc(28px + env(safe-area-inset-bottom,0px))}
+.chip{display:inline-block;border-radius:20px;padding:7px 14px;background:var(--card);border:1px solid var(--bd);font-size:14px}
+textarea,input{width:100%;font:inherit;font-size:16px;padding:12px;border-radius:12px;border:1px solid var(--bd);background:var(--card);color:var(--tx);margin:10px 0}
+textarea{resize:none;overflow:hidden;line-height:1.45;min-height:90px}
+.row{display:flex;gap:10px;margin-top:10px}.row button{flex:1}
+dialog{border:0;border-radius:20px;padding:16px;background:var(--card);color:var(--tx);width:min(92vw,440px)}
+dialog::backdrop{background:rgba(0,0,0,.55)}
+dialog .row{flex-wrap:wrap}.ml button{width:100%;margin-top:8px}
+#bar{margin-top:6px}
+.sr{display:flex;gap:8px;align-items:center;position:relative}
+.pal{display:flex;gap:12px;flex-wrap:wrap;margin-top:10px}
+.pal button{width:44px;height:44px;border-radius:50%;padding:0;border:3px solid var(--card);box-shadow:0 0 0 2px var(--bd)}
+.pal button.on{box-shadow:0 0 0 3px var(--tx)}
+.palnm{width:100%;font-size:13px;color:var(--mut);margin-top:-2px}
+.sw{position:relative;flex:1;min-width:0}
+.sw input{margin:0;padding:11px 42px 11px 38px;width:100%}
+.sw .si{position:absolute;left:12px;top:50%;margin-top:-.575em;color:var(--mut);pointer-events:none}
+.clr{position:absolute;right:5px;top:50%;transform:translateY(-50%);width:34px;height:34px;padding:0;background:none;color:var(--mut);border-radius:50%;font-size:17px}
+.clr:hover{color:var(--ac)}
+.fa{width:1em;height:1em;flex:none;fill:currentColor;stroke:none}
+.mask{-webkit-text-security:disc;text-security:disc}
+.chips{display:flex;gap:8px;overflow-x:auto;padding:2px 0 4px;margin-top:8px}
+.cc{flex:none;background:var(--card);color:var(--tx);border:1px solid var(--bd);padding:7px 12px;border-radius:20px;font-size:14px}
+.cc.on{background:var(--ac);color:var(--on);border-color:var(--ac)}
+.cc b{width:12px;height:12px;border-radius:50%;border:1px solid rgba(128,128,128,.45);display:inline-block}
+.nv{position:absolute;top:50%;transform:translateY(-50%);background:var(--bg);color:var(--tx);opacity:.85}
+.nv.l{left:10px}.nv.r{right:10px}
+.dp img.sl{animation:sl .22s ease}
+@keyframes sl{from{opacity:0;transform:translateX(var(--dx,30px))}to{opacity:1;transform:none}}
+#aPrev{width:100%;max-height:30vh;object-fit:contain;border-radius:12px;margin-top:6px}
+.note{font-size:12px;color:var(--mut);margin:6px 0 0}
+#st{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(92px + env(safe-area-inset-bottom,0px));background:var(--tx);color:var(--bg);padding:10px 16px;border-radius:20px;font-size:14px;opacity:0;transition:.3s;pointer-events:none;max-width:90vw;text-align:center;z-index:50}
+#st.on{opacity:1}
+.i{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="i-hanger" viewBox="0 0 24 24"><path d="M12 7a2.5 2.5 0 1 0-2.5-2.5M12 7v2.5L2.5 17a1.5 1.5 0 0 0 1 2.7h17a1.5 1.5 0 0 0 1-2.7L12 9.5"/></symbol>
+<symbol id="i-gear" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3h0a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5h0a1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8v0a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></symbol>
+<symbol id="i-up" viewBox="0 0 24 24"><path d="M12 16V4M7 9l5-5 5 5M4 20h16"/></symbol>
+<symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v12M7 11l5 5 5-5M4 20h16"/></symbol>
+<symbol id="i-copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h9"/></symbol>
+<symbol id="i-dl" viewBox="0 0 24 24"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></symbol>
+<symbol id="i-trash" viewBox="0 0 24 24"><path d="M4 7h16M10 11v6M14 11v6M6 7l1 13h10l1-13M9 7V4h6v3"/></symbol>
+<symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+<symbol id="i-heart" viewBox="0 0 24 24"><path d="M12 20s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 10c0 5.5-7 10-7 10z"/></symbol>
+<symbol id="i-back" viewBox="0 0 24 24"><path d="M15 5l-7 7 7 7"/></symbol>
+<symbol id="i-edit" viewBox="0 0 24 24"><path d="M4 20h4L19 9l-4-4L4 16v4zM13 7l4 4"/></symbol>
+<symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="M20 20l-4-4"/></symbol>
+<symbol id="i-grid" viewBox="0 0 24 24"><rect x="4" y="4" width="7" height="7" rx="1"/><rect x="13" y="4" width="7" height="7" rx="1"/><rect x="4" y="13" width="7" height="7" rx="1"/><rect x="13" y="13" width="7" height="7" rx="1"/></symbol>
+<symbol id="i-next" viewBox="0 0 24 24"><path d="M9 5l7 7-7 7"/></symbol>
+<!-- Font Awesome Free 6 (CC BY 4.0, fontawesome.com/license/free) -->
+<symbol id="fa-xmark" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"/></symbol>
+<symbol id="fa-circle-xmark" viewBox="0 0 512 512"><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/></symbol>
+<symbol id="i-move" viewBox="0 0 24 24"><path d="M4 7h13M13 3l4 4-4 4M20 17H7M11 13l-4 4 4 4"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+ <header>
+  <h1 id="title">Мой шкаф</h1>
+  <button class="ghost ic" onclick="pull()" aria-label="Обновить с GitHub"><svg class="i"><use href="#i-down"/></svg></button>
+  <button class="ic ed" id="bPush" onclick="push()" aria-label="Сохранить на GitHub"><svg class="i"><use href="#i-up"/></svg></button>
+  <button class="ghost ic" onclick="openGh()" aria-label="Настройки GitHub"><svg class="i"><use href="#i-gear"/></svg></button>
+ </header>
+ <div id="bar">
+  <div class="sr"><div class="sw"><svg class="i si"><use href="#i-search"/></svg><input id="q" type="text" name="wd-filter" inputmode="search" enterkeyhint="search" placeholder="Поиск по описанию…" oninput="setQ(this.value)" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other"><button class="clr" id="qc" onclick="clrQ()" aria-label="Очистить поиск" hidden><svg class="fa"><use href="#fa-circle-xmark"/></svg></button></div><button class="ghost ic" onclick="openSz()" aria-label="Вид: цвет и размер"><svg class="i"><use href="#i-grid"/></svg></button></div>
+  <div class="chips" id="chips" hidden></div>
+ </div>
+ <div id="main"></div>
+</div>
+<nav>
+ <button id="nShelf" onclick="go('shelf')"><svg class="i"><use href="#i-hanger"/></svg>Шкаф</button>
+ <button id="nFav" onclick="go('fav')"><svg class="i"><use href="#i-heart"/></svg>Любимое</button>
+</nav>
+
+<div id="det" hidden>
+ <div class="dp"><img id="vImg" alt="">
+  <button class="ic nv l" id="nvL" onclick="step(-1)" aria-label="Предыдущий"><svg class="i"><use href="#i-back"/></svg></button>
+  <button class="ic nv r" id="nvR" onclick="step(1)" aria-label="Следующий"><svg class="i"><use href="#i-next"/></svg></button>
+  <button class="ic ov l" onclick="closeDet()" aria-label="Назад"><svg class="i"><use href="#i-back"/></svg></button>
+  <button class="ic ov r ed" id="bFav" onclick="toggleFav()" aria-label="В любимое"><svg class="i"><use href="#i-heart"/></svg></button>
+ </div>
+ <div class="db">
+  <span class="chip" id="vCat"></span>
+  <textarea id="vDesc" placeholder="Описание: что это, с чем носить…" rows="3"></textarea>
+  <div class="row"><button onclick="copyImg()"><svg class="i"><use href="#i-copy"/></svg> Копировать фото</button><button class="ghost" onclick="saveImg()"><svg class="i"><use href="#i-dl"/></svg> Скачать</button></div>
+  <div class="row"><button class="ghost" onclick="copyDesc()"><svg class="i"><use href="#i-copy"/></svg> Копировать описание</button></div>
+  <div class="row ed"><button class="ghost" onclick="openMove()"><svg class="i"><use href="#i-move"/></svg> Перенести в…</button><button class="ghost ic" style="flex:none" onclick="delItem()" aria-label="Удалить"><svg class="i"><use href="#i-trash"/></svg></button></div>
+  <p class="note">На телефоне можно зажать картинку и выбрать «Сохранить» или «Копировать».</p>
+ </div>
+</div>
+
+<dialog id="dSz"><b>Цвет</b><div class="pal" id="palList"></div><b style="display:block;margin-top:14px">Размер карточек</b><div class="ml" id="szList"></div><div class="row"><button class="ghost" onclick="dSz.close()">Закрыть</button></div></dialog>
+<dialog id="dMove"><b>Перенести в категорию</b><div class="ml" id="mList"></div><div class="row"><button class="ghost" onclick="dMove.close()">Отмена</button></div></dialog>
+<dialog id="dAdd"><b>Новая вещь</b>
+  <input type="file" id="aFile" accept="image/*" onchange="aPrev.src=URL.createObjectURL(this.files[0])">
+  <img id="aPrev" alt="">
+  <textarea id="aDesc" rows="3" placeholder="Описание: что это, с чем носить…"></textarea>
+  <div class="row"><button onclick="addItem()">Добавить</button><button class="ghost" onclick="dAdd.close()">Отмена</button></div>
+</dialog>
+<dialog id="dGh"><b>Настройки GitHub</b>
+  <input id="gUser" placeholder="Твой логин GitHub" autocomplete="off" data-lpignore="true" data-form-type="other">
+  <input id="gRepo" placeholder="Название репозитория" autocomplete="off" data-lpignore="true" data-form-type="other">
+  <input id="gTok" class="mask" type="text" name="wd-gh-key" placeholder="Токен (нужен только для сохранения)" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" data-lpignore="true" data-1p-ignore data-bwignore data-form-type="other">
+  <p class="note">Токен хранится только в этом браузере. Без токена сайт работает в режиме просмотра: кнопки добавления и редактирования скрыты.</p>
+  <div class="row"><button onclick="saveGh()">Сохранить</button><button class="ghost" onclick="dGh.close()">Закрыть</button></div>
+</dialog>
+<div id="st"></div>
+
+<script>
+const $=id=>document.getElementById(id);
+const ICON=n=>`<svg class="i"><use href="#i-${n}"/></svg>`;
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+let F={q:'',c:new Set()},navL=[],SZ='m',S={cats:[],items:[]},V='shelf',catId=null,addTo=null,openId=null,G={},dirty=false,lastPush=0;
+try{SZ=localStorage.getItem('wds')||'m'}catch(e){}
+if(!['s','m','l'].includes(SZ))SZ='m';document.body.dataset.sz=SZ;
+try{const s=localStorage.getItem('wd');if(s)S=JSON.parse(s);G=JSON.parse(localStorage.getItem('wdg')||'{}');dirty=localStorage.getItem('wdd')==='1';lastPush=+localStorage.getItem('wdp')||0}catch(e){}
+function toast(t){const e=$('st');e.textContent=t;e.classList.add('on');clearTimeout(toast.t);toast.t=setTimeout(()=>e.classList.remove('on'),2800)}
+function save(){try{localStorage.setItem('wd',JSON.stringify(S))}catch(e){toast('Память браузера заполнена, сохрани на GitHub')}}
+function mark(v){dirty=v;try{localStorage.setItem('wdd',v?'1':'0')}catch(e){}$('bPush').classList.toggle('dot',v)}
+function commit(){save();mark(true)}
+function clean(){const n=S.items.length+S.cats.length;S.items=S.items.filter(i=>i.id!=='i1'&&i.id!=='i2');S.cats=S.cats.filter(c=>!['c1','c2','c3'].includes(c.id)||S.items.some(i=>i.cat===c.id));return n!==S.items.length+S.cats.length}
+function retry(el){const n=+el.dataset.n||0;if(n>6)return;el.dataset.n=n+1;setTimeout(()=>{el.src=el.src.split('?')[0]+'?r='+Date.now()},10000)}
+const catName=id=>(S.cats.find(c=>c.id===id)||{}).name||'';
+const tile=i=>`<div class="t" onclick="openItem('${i.id}')"><div class="p"><img src="${i.img}" alt="" loading="lazy" onerror="retry(this)">${i.fav?`<div class="hb">${ICON('heart')}</div>`:''}</div><span>${esc(i.desc||'Без описания')}</span></div>`;
+const addTile=c=>`<button class="addt ed" onclick="openAdd('${c}')" aria-label="Добавить вещь">${ICON('plus')}</button>`;
+const can=()=>!!(G.u&&G.r&&G.t);
+function mode(){document.body.classList.toggle('ro',!can())}
+function go(v,c){V=v;if(c)catId=c;render();scrollTo(0,0)}
+const COL=[
+ ['black','Чёрный','#222',/black|noir|чёрн|черн/i],
+ ['white','Светлый','#f3ecdf',/ivory|white|cream|beige|ecru|\bbone\b|белы|молочн|слонов|беж/i],
+ ['pink','Розовый','#ef7aa8',/pink|\brose\b|fuchsia|magenta|blush|розов|фукси/i],
+ ['red','Красный','#c0392b',/\bred\b|crimson|burgundy|\bwine\b|scarlet|красн|бордо/i],
+ ['green','Зелёный','#2e7d4f',/green|emerald|olive|\bsage\b|зелен|зелён|изумруд|олив/i],
+ ['blue','Синий','#3b6fb5',/blue|navy|teal|cyan|turquoise|син|голуб|бирюз/i],
+ ['purple','Фиолетовый','#7e57c2',/purple|violet|lavender|lilac|plum|фиолет|сирен|лаванд/i],
+ ['brown','Коричневый','#7b4a2d',/brown|chocolate|\btan\b|camel|coffee|коричн|шоколад/i],
+ ['gold','Золото/серебро','#c9a24b',/gold|silver|metallic|золот|серебр/i],
+ ['gray','Серый','#8a8a8a',/gr[ae]y|charcoal|серы|сера|серо/i]
+];
+const colSrc=d=>{d=d||'';const m=d.match(/main colou?r:\s*([^.]*)/i);return m?m[1]:d.slice(0,160)};
+const colorsOf=i=>{const t=colSrc(i.desc);return COL.filter(c=>c[3].test(t)).map(c=>c[0])};
+const filterOn=()=>!!(F.q||F.c.size);
+function match(i){
+  if(F.q&&!((i.desc||'')+' '+catName(i.cat)).toLowerCase().includes(F.q))return false;
+  if(F.c.size){const cs=colorsOf(i);for(const k of F.c)if(!cs.includes(k))return false}
+  return true;
+}
+function setQ(v){F.q=v.trim().toLowerCase();$('qc').hidden=!v;render()}
+function clrQ(){F.q='';$('q').value='';$('qc').hidden=true;render()}
+function toggleCol(k){F.c.has(k)?F.c.delete(k):F.c.add(k);render()}
+function resetF(){F={q:'',c:new Set()};$('q').value='';$('qc').hidden=true;render()}
+function chips(){
+  const has=new Set();S.items.forEach(i=>colorsOf(i).forEach(k=>has.add(k)));
+  let h=COL.filter(c=>has.has(c[0])).map(c=>`<button class="cc${F.c.has(c[0])?' on':''}" onclick="toggleCol('${c[0]}')"><b style="background:${c[2]}"></b>${c[1]}</button>`).join('');
+  if(h&&filterOn())h+=`<button class="cc" onclick="resetF()"><svg class="fa"><use href="#fa-xmark"/></svg> Сбросить</button>`;
+  $('chips').innerHTML=h;$('chips').hidden=!h;
+}
+const SIZES=[['s','Компактные','как раньше'],['m','Средние','под пропорции фото'],['l','Крупные','']];
+function paintPal(){$('palList').innerHTML=PAL.map(p=>`<button style="background:${p[2]}" class="${PC===p[0]?'on':''}" onclick="setPal('${p[0]}')" aria-label="${p[1]}"></button>`).join('')+`<div class="palnm">${(PAL.find(x=>x[0]===PC)||PAL[0])[1]}</div>`}
+function setPal(k){PC=k;try{localStorage.setItem('wdc',k)}catch(e){}applyPal();paintPal()}
+function openSz(){paintPal();$('szList').innerHTML=SIZES.map(z=>`<button class="${SZ===z[0]?'':'ghost'}" onclick="setSz('${z[0]}')">${z[1]}${z[2]?' · '+z[2]:''}</button>`).join('');dSz.showModal()}
+function setSz(k){SZ=k;document.body.dataset.sz=k;try{localStorage.setItem('wds',k)}catch(e){}dSz.close()}
+function render(){
+  mode();
+  if(V==='cat'&&!S.cats.find(c=>c.id===catId))V='shelf';
+  $('nShelf').classList.toggle('on',V!=='fav');$('nFav').classList.toggle('on',V==='fav');
+  chips();
+  const m=$('main'),on=filterOn(),none='<div class="empty">Ничего не нашлось.</div>';
+  if(V==='fav'){
+    $('title').textContent='Любимое';
+    const f=S.items.filter(i=>i.fav&&match(i));
+    m.innerHTML=`<div class="gr">${f.length?f.map(tile).join(''):(on?none:'<div class="empty">Здесь будут вещи, которые ты отметишь сердечком.</div>')}</div>`;
+  }else if(V==='cat'){
+    $('title').textContent=catName(catId);
+    const its=S.items.filter(i=>i.cat===catId&&match(i));
+    m.innerHTML=`<div class="cb"><button class="ghost" onclick="go('shelf')">${ICON('back')} Назад</button><button class="ghost ed" onclick="renCat()">${ICON('edit')} Переименовать</button><button class="ghost ic ed" onclick="delCat()" aria-label="Удалить категорию">${ICON('trash')}</button></div><div class="gr">${on?'':addTile(catId)}${its.map(tile).join('')}</div>${on&&!its.length?none:''}`;
+  }else if(on){
+    $('title').textContent='Мой шкаф';
+    const r=S.items.filter(match);
+    m.innerHTML=`<p class="note" style="margin-top:14px">Найдено: ${r.length}</p><div class="gr">${r.length?r.map(tile).join(''):none}</div>`;
+  }else{
+    $('title').textContent='Мой шкаф';
+    m.innerHTML=S.cats.length?S.cats.map(c=>{const its=S.items.filter(i=>i.cat===c.id);return `<section class="sh"><div class="hd"><h2>${esc(c.name)}</h2><button class="lk" onclick="go('cat','${c.id}')">Все (${its.length})</button></div><div class="rw">${addTile(c.id)}${its.map(tile).join('')}</div></section>`}).join('')+`<button class="newshelf ed" onclick="addCat()">${ICON('plus')} Новая полка</button>`
+     :`<div class="empty" style="margin-top:40px">Пока нет ни одной полки.<button class="ed" onclick="addCat()">${ICON('plus')} Создать полку</button></div>`;
+  }
+}
+function addCat(){const n=prompt('Название категории:');if(!n||!n.trim())return null;const id='c'+Date.now();S.cats.push({id,name:n.trim()});commit();render();return id}
+function renCat(){const c=S.cats.find(c=>c.id===catId);const n=prompt('Новое название:',c.name);if(!n||!n.trim())return;c.name=n.trim();commit();render()}
+function delCat(){if(!confirm(`Удалить «${catName(catId)}» вместе со всеми вещами?`))return;S.cats=S.cats.filter(x=>x.id!==catId);S.items=S.items.filter(i=>i.cat!==catId);commit();V='shelf';render()}
+function openAdd(c){addTo=c;$('aFile').value='';$('aDesc').value='';$('aPrev').removeAttribute('src');dAdd.showModal()}
+function addItem(){
+  const f=$('aFile').files[0];if(!f)return toast('Выбери фото');
+  const im=new Image();im.onload=()=>{const k=Math.min(1,900/Math.max(im.width,im.height));const c=document.createElement('canvas');c.width=im.width*k;c.height=im.height*k;c.getContext('2d').drawImage(im,0,0,c.width,c.height);
+   S.items.push({id:'i'+Date.now(),cat:addTo,desc:$('aDesc').value.trim(),img:c.toDataURL('image/jpeg',.85)});commit();dAdd.close();render();toast('Добавлено')};
+  im.src=URL.createObjectURL(f);
+}
+const item=()=>S.items.find(x=>x.id===openId);
+function fit(){const t=$('vDesc');t.style.height='auto';t.style.height=Math.max(90,t.scrollHeight)+'px'}
+function paint(dir){
+  const i=item();$('vDesc').readOnly=!can();$('vImg').src=i.img;$('vDesc').value=i.desc||'';
+  const k=navL.indexOf(openId);
+  $('vCat').textContent=catName(i.cat)+(navL.length>1?' · '+(k+1)+'/'+navL.length:'');
+  $('bFav').classList.toggle('on',!!i.fav);
+  $('nvL').hidden=$('nvR').hidden=navL.length<2;
+  if(dir){const im=$('vImg');im.style.setProperty('--dx',(dir*40)+'px');im.classList.remove('sl');void im.offsetWidth;im.classList.add('sl')}
+  fit();
+}
+function navIds(id){
+  const i=S.items.find(x=>x.id===id);let l;
+  if(V==='fav')l=S.items.filter(x=>x.fav);
+  else if(V==='shelf'&&filterOn())l=S.items.slice();
+  else l=S.items.filter(x=>x.cat===i.cat);
+  l=l.filter(match).map(x=>x.id);
+  if(!l.includes(id))l.push(id);
+  return l;
+}
+function openItem(id){openId=id;navL=navIds(id);$('det').hidden=false;document.body.style.overflow='hidden';paint();$('det').scrollTop=0}
+function flush(){const i=item(),v=$('vDesc').value.trim();if(i&&can()&&v!==(i.desc||'')){i.desc=v;commit()}}
+function step(d){
+  if(navL.length<2)return;
+  flush();
+  const k=(navL.indexOf(openId)+d+navL.length)%navL.length;
+  openId=navL[k];paint(d);$('det').scrollTop=0;
+}
+let tx=0,ty=0;
+$('det').addEventListener('touchstart',e=>{if(e.target.closest('textarea,input'))return;tx=e.touches[0].clientX;ty=e.touches[0].clientY},{passive:true});
+$('det').addEventListener('touchend',e=>{if(!tx)return;const t=e.changedTouches[0],dx=t.clientX-tx,dy=t.clientY-ty;tx=0;if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)*1.5)step(dx<0?1:-1)},{passive:true});
+addEventListener('keydown',e=>{if($('det').hidden||e.target.matches('textarea,input')||dMove.open)return;if(e.key==='ArrowRight')step(1);else if(e.key==='ArrowLeft')step(-1);else if(e.key==='Escape')closeDet()});
+async function copyDesc(){
+  const t=$('vDesc').value.trim();if(!t)return toast('Описания пока нет');
+  try{await navigator.clipboard.writeText(t)}catch(e){try{const a=$('vDesc');a.select();document.execCommand('copy')}catch(_){return toast('Не вышло, выдели текст и скопируй вручную')}}
+  toast('Описание скопировано');
+}
+function closeDet(){$('det').hidden=true;document.body.style.overflow='';render()}
+$('vDesc').addEventListener('input',fit);
+$('vDesc').addEventListener('change',()=>{const i=item();if(i){i.desc=$('vDesc').value.trim();commit()}});
+function toggleFav(){const i=item();i.fav=!i.fav;commit();$('bFav').classList.toggle('on',i.fav);toast(i.fav?'Добавлено в любимое':'Убрано из любимого')}
+function openMove(){const i=item();$('mList').innerHTML=S.cats.map(c=>`<button class="${c.id===i.cat?'':'ghost'}" ${c.id===i.cat?'disabled':''} onclick="moveTo('${c.id}')">${esc(c.name)}</button>`).join('')+`<button class="ghost" onclick="moveNew()">${ICON('plus')} Новая категория…</button>`;dMove.showModal()}
+function moveTo(id){const i=item();i.cat=id;commit();dMove.close();paint();toast(`Перенесено в «${catName(id)}»`)}
+function moveNew(){dMove.close();const id=addCat();if(id)moveTo(id)}
+function delItem(){if(!confirm('Удалить эту вещь?'))return;S.items=S.items.filter(i=>i.id!==openId);commit();closeDet()}
+function toPng(src){return new Promise((ok,no)=>{const im=new Image();im.crossOrigin='anonymous';im.onload=()=>{const c=document.createElement('canvas');c.width=im.width;c.height=im.height;c.getContext('2d').drawImage(im,0,0);c.toBlob(ok,'image/png')};im.onerror=no;im.src=src})}
+async function copyImg(){try{const b=await toPng($('vImg').src);await navigator.clipboard.write([new ClipboardItem({'image/png':b})]);toast('Картинка скопирована')}catch(e){toast('Не вышло, зажми картинку и выбери «Копировать»')}}
+async function saveImg(){try{const b=await toPng($('vImg').src);const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='outfit-'+openId+'.png';a.click()}catch(e){toast('Не вышло, зажми картинку и выбери «Сохранить»')}}
+
+function openGh(){$('gUser').value=G.u||'';$('gRepo').value=G.r||'';$('gTok').value=G.t||'';dGh.showModal()}
+function saveGh(){G={u:$('gUser').value.trim(),r:$('gRepo').value.trim(),t:$('gTok').value.trim()};try{localStorage.setItem('wdg',JSON.stringify(G))}catch(e){}dGh.close();render();toast(can()?'Режим редактирования включён':'Режим просмотра')}
+const api=p=>`https://api.github.com/repos/${G.u}/${G.r}/contents/${p}`;
+const hd=()=>({Authorization:'Bearer '+G.t,Accept:'application/vnd.github+json'});
+const b64=s=>btoa(unescape(encodeURIComponent(s)));
+async function put(path,content64,msg){
+  let sha;const r=await fetch(api(path),{headers:hd()});if(r.ok)sha=(await r.json()).sha;
+  const w=await fetch(api(path),{method:'PUT',headers:hd(),body:JSON.stringify({message:msg,content:content64,sha})});
+  if(!w.ok)throw new Error((await w.json()).message);
+}
+async function push(){
+  if(!G.u||!G.r||!G.t){openGh();return toast('Сначала заполни настройки GitHub')}
+  try{
+    const out={cats:S.cats,items:[]},paths={};let n=0;
+    for(const i of S.items){
+      let img=i.img;
+      if(img.startsWith('data:image/jpeg')){img='images/'+i.id+'.jpg';toast(`Загружаю фото ${++n}…`);await put(img,i.img.split(',')[1],'Add '+i.id);paths[i.id]=img}
+      else if(img.startsWith('data:'))img='';
+      out.items.push({id:i.id,cat:i.cat,desc:i.desc,img,fav:!!i.fav});
+    }
+    await put('wardrobe.json',b64(JSON.stringify(out,null,1)),'Update wardrobe');
+    S.items.forEach(i=>{if(paths[i.id])i.img=paths[i.id]});
+    lastPush=Date.now();try{localStorage.setItem('wdp',lastPush)}catch(e){}
+    save();mark(false);render();toast('Всё сохранено на GitHub')
+  }catch(e){toast('Ошибка GitHub: '+e.message)}
+}
+async function pull(silent){
+  if(silent!==true&&dirty&&!confirm('Есть несохранённые изменения, они пропадут. Продолжить?'))return;
+  try{
+    let d;
+    if(G.u&&G.r&&G.t){const r=await fetch(api('wardrobe.json'),{headers:hd()});if(!r.ok)throw new Error('файл не найден');d=JSON.parse(decodeURIComponent(escape(atob((await r.json()).content.replace(/\n/g,'')))))}
+    else{const r=await fetch('wardrobe.json?t='+Date.now());if(!r.ok)throw new Error('файл не найден');d=await r.json()}
+    S=d;const ch=clean();save();mark(ch);render();if(silent!==true)toast('Обновлено')
+  }catch(e){if(silent!==true)toast('Ошибка: '+e.message)}
+}
+if(clean())mark(true);
+mark(dirty);render();
+if(!dirty&&Date.now()-lastPush>600000)pull(true);
+</script>
+<script src="music.js" defer></script>
+</body>
+</html>
