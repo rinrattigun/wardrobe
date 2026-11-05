@@ -3,6 +3,10 @@
   {
    "id": "c1793884057702",
    "name": "Дефолт"
+  },
+  {
+   "id": "c1793885559384",
+   "name": "Азия"
   }
  ],
  "items": [
@@ -95,6 +99,13 @@
    "cat": "c1793884057702",
    "desc": "cropped black and dark red striped long-sleeved top, distressed knitted fabric, horizontal red stripes across chest and sleeves, torn open-knit sections, black fishnet mesh panel covering exposed abdomen, cropped hem, black shorts with multiple belts, layered studded black belts with silver buckles, low-rise shorts, black distressed fabric, red graphic markings on shorts, multiple dangling chains, silver chain draped across hips, black garter straps around thighs, one thigh wrapped with black straps and metal buckles, exposed legs, black scrunched leg warmers, distressed black fabric around ankles, black lace-up combat boots, chunky platform soles, multiple silver eyelets, metal buckles, black choker with studs, layered silver necklaces, black fingerless gloves",
    "img": "images/i1793885503570.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885630028",
+   "cat": "c1793885559384",
+   "desc": "black sleeveless high-neck fitted top, black halter-neck top, high collar covering the neck, sleeveless design with exposed shoulders and arms, snug form-fitting fabric, smooth matte black material, tucked into a long black pleated skirt, floor-length pleated skirt, wide flowing silhouette, deep vertical pleats, heavy structured fabric, layered overlapping skirt panels, high-waisted skirt, multiple black belts wrapped around the waist, layered waist belts, wide black leather belts with rectangular silver buckles, additional narrow straps hanging from the waist, long dangling belt ends, black loose trousers underneath the skirt, black tabi-style sandals, open-toe black platform sandals, thick flat soles, straps crossing over the feet, black ankle wraps, wide silver metallic choker, polished rectangular metal collar",
+   "img": "images/i1793885630028.jpg",
    "fav": false
   }
  ]
