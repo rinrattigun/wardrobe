@@ -1,4 +1,17 @@
 {
-  "cats": [],
-  "items": []
+ "cats": [
+  {
+   "id": "c1793884057702",
+   "name": "Дефолт"
+  }
+ ],
+ "items": [
+  {
+   "id": "i1793884322367",
+   "cat": "c1793884057702",
+   "desc": "black oversized zip-up hoodie, unzipped black hoodie, loose hood resting behind the neck, plain white crew-neck t-shirt, layered casual streetwear, slim black belt with silver buckle, low-rise dark blue washed-out jeans, loose straight-leg denim, slightly flared jeans, silver wallet chains hanging from belt loops, multiple metal chains attached to jeans, dangling silver keychains, black leather wristbands, layered silver necklaces, long cross pendant, thin chain necklaces, dark rings, black chunky platform shoes, thick rubber soles, black leather sneakers",
+   "img": "images/i1793884322367.jpg",
+   "fav": false
+  }
+ ]
 }
