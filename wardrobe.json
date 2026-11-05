@@ -7,6 +7,10 @@
   {
    "id": "c1793885559384",
    "name": "Азия"
+  },
+  {
+   "id": "c1793886127697",
+   "name": "Дарк"
   }
  ],
  "items": [
@@ -106,6 +110,27 @@
    "cat": "c1793884057702",
    "desc": "oversized faded charcoal gray graphic t-shirt, washed-out vintage print, intricate dark ornamental design on the chest, layered over a long-sleeved light gray shirt, visible sleeves extending past the short sleeves, loose layered streetwear, black wide-leg jeans, extremely baggy denim trousers, low-rise pants, silver studs along the outer seams, subtle metallic details, black belt, silver chain hanging from waistband, black crossbody bag, thick black shoulder strap, layered silver necklaces, dark pendant, black wrist accessories, black and gray chunky sneakers",
    "img": "images/i1793885806573.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885955418",
+   "cat": "c1793885559384",
+   "desc": "traditional Japanese white hooded kimono, oversized white outer robe, large hood with deep red inner lining, wide flowing sleeves, extra-long sleeves extending past the wrists, floor-length robe with a long trailing hem, white silk fabric with subtle pale floral jacquard patterns, glossy satin-like texture, red lining visible along sleeve edges and inner panels, layered white kimono, deep red inner kimono, overlapping V-shaped collar, red trim along neckline, multiple long white fabric panels draping down the front, wide white obi sash wrapped around the waist, red fabric belt underneath, long red ribbon straps crossing diagonally over the chest, decorative red Japanese mizuhiki knot ornament attached to the chest, intricate ornamental cord knot, long red tassels hanging from the ornament, loose red fabric panels extending down the front, flowing layered robe, white tabi socks, red thong straps, black wooden geta sandals with thick elevated soles, traditional Japanese footwear",
+   "img": "images/i1793885955418.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886218633",
+   "cat": "c1793886127697",
+   "desc": "long black oversized trench coat, high stiff collar covering the neck, front partially open, long wide coat panels reaching below the knees, structured shoulders, loose oversized sleeves, black matte fabric, dark gray leather-like inserts across shoulders and chest, gray panels along the front edges, horizontal gray bands around sleeves, multiple black straps with silver buckles on shoulders and upper arms, decorative metal fasteners, black fitted high-neck shirt underneath, layered black waist belt, wide black belt with rectangular silver buckle, additional narrow belts around waist, long black pleated wide-leg trousers, extremely loose floor-length pants, black fabric straps hanging from coat and waist, adjustable buckles near lower coat panels, silver chains attached to belt loops, long silver cross necklace, black chunky platform boots, thick lug soles, silver metal eyelets, black leather gloves",
+   "img": "images/i1793886218633.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886259258",
+   "cat": "c1793886127697",
+   "desc": "oversized black hooded long coat, large deep hood covering the head, loose open-front coat, wide draping sleeves, coat slipping off one shoulder, long black outerwear reaching below the knees, distressed black fabric, layered coat panels, black sleeveless ribbed turtleneck top, fitted high-neck shirt, exposed shoulders and upper arms, black leather harness straps over shoulders, multiple silver buckles and metal rings, black arm strap around upper arm, black fingerless gloves, wide black pleated skirt-like trousers, extremely wide floor-length black pants, layered long fabric panels, multiple black straps hanging vertically from waist and thighs, silver buckles along straps, layered black belts with rectangular metal buckles, multiple silver chains hanging from hips, dangling metal rings and cross charms, black choker with silver rings, layered silver necklaces, long cross pendant, black chunky platform boots",
+   "img": "images/i1793886259258.jpg",
    "fav": false
   }
  ]
