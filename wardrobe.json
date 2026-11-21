@@ -1,9 +1,151 @@
 {
  "cats": [
   {
-   "id": "c1793884001278",
+   "id": "c1793884057702",
    "name": "Дефолт"
+  },
+  {
+   "id": "c1793885559384",
+   "name": "Азия"
+  },
+  {
+   "id": "c1793886127697",
+   "name": "Дарк"
   }
  ],
- "items": []
+ "items": [
+  {
+   "id": "i1793884322367",
+   "cat": "c1793884057702",
+   "desc": "black oversized zip-up hoodie, unzipped black hoodie, loose hood resting behind the neck, plain white crew-neck t-shirt, layered casual streetwear, slim black belt with silver buckle, low-rise dark blue washed-out jeans, loose straight-leg denim, slightly flared jeans, silver wallet chains hanging from belt loops, multiple metal chains attached to jeans, dangling silver keychains, black leather wristbands, layered silver necklaces, long cross pendant, thin chain necklaces, dark rings, black chunky platform shoes, thick rubber soles, black leather sneakers",
+   "img": "images/i1793884322367.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793884479845",
+   "cat": "c1793884057702",
+   "desc": "oversized dark red graphic t-shirt, faded crimson red fabric, distressed black gothic print on the chest, loose short sleeves, black long-sleeved shirt underneath, layered sleeves, black cargo shorts, oversized knee-length shorts, multiple large cargo pockets, loose utility fit, black drawstrings, silver chains attached to belt loops, dangling metal keychains, black fingerless gloves, black headphones resting around the neck, thick padded headphones, black shoulder bag, layered silver necklaces, multiple chain necklaces, black scrunched leg warmers, slouchy black socks, chunky black platform sneakers, silver shoe details",
+   "img": "images/i1793884479845.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793884512035",
+   "cat": "c1793884057702",
+   "desc": "oversized black graphic t-shirt, faded dark gothic illustration on the chest, black and gray distressed print, black and white horizontal striped long-sleeved shirt underneath, tight striped sleeves extending to the wrists, layered alternative streetwear, loose black cargo-style trousers, extremely baggy dark gray jeans, ripped knees, heavily distressed denim, large frayed holes around both knees, dangling fabric threads, silver wallet chains, multiple metal chains hanging from waistband, black belt, silver buckle, black fingerless gloves, layered silver necklaces, thin chains, dark cross pendant, black shoulder bag, chunky black platform sneakers, thick soles, worn leather texture",
+   "img": "images/i1793884512035.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793884543291",
+   "cat": "c1793884057702",
+   "desc": "oversized white graphic t-shirt, loose white short-sleeved shirt, distressed black and red collage print on the chest, vintage band-inspired graphic, slightly faded fabric, black shoulder bag, thick black crossbody strap across the chest, extremely baggy black cargo pants, oversized multi-pocket trousers, numerous large flap pockets along both legs, layered utility pockets, dangling black fabric straps, loose hanging belt straps, silver chains attached to waistband, metal keychains, black leather wristbands, silver rings, layered necklaces, thin black choker, black chunky platform shoes, thick rubber soles",
+   "img": "images/i1793884543291.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793884955242",
+   "cat": "c1793884057702",
+   "desc": "black fitted short-sleeved t-shirt, faded red five-pointed star graphic on the chest, slightly cropped shirt exposing a strip of lower abdomen, black distressed skinny jeans, heavily ripped knees and thighs, large horizontal tears with frayed edges, shredded denim strips hanging from the legs, multiple black belts layered around the waist, wide belt with silver rectangular buckle, additional studded belts, silver chains hanging from belt loops, dangling metal rings, black fingerless gloves, black leather wristbands, studded bracelets, black choker with metal details, layered silver necklaces, long cross pendant, black shoulder bag with straps, black chunky platform boots, thick studded soles, silver buckles on boots, black and red details, tattoos covering both arms",
+   "img": "images/i1793884955242.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793884978435",
+   "cat": "c1793884057702",
+   "desc": "white sleeveless graphic tank top, distressed black abstract print on the front, loose worn-out fabric, deep armholes, black wide-leg cargo pants, oversized baggy trousers, multiple large cargo pockets on both thighs, hanging utility straps, metal buckles, layered black belts, wide studded belt with silver buckle, multiple silver chains hanging from waist, long dangling chain attached to belt loop, black fingerless gloves, black leather wrist cuffs, black over-ear headphones around the neck, black crossbody bag, thick shoulder strap across chest, layered silver necklaces, cross pendant, black chunky sneakers, thick white and black soles, black and silver shoe details, tattoos covering both arms",
+   "img": "images/i1793884978435.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885007609",
+   "cat": "c1793884057702",
+   "desc": "oversized black zip-up hoodie, open black jacket, red triple stripes running down both sleeves, loose hood resting behind the neck, black graphic t-shirt underneath, faded dark print on chest, black skinny jeans, distressed ripped knees, frayed holes across both legs, loose fabric threads, multiple silver chains hanging from waistband, black belt with metal buckle, dangling keychains, black fingerless gloves, long black sleeves covering hands, layered silver necklaces, black choker, cross pendant, black shoulder bag, black chunky platform sneakers, thick soles, silver buckles and metal details, black and red color accents, tattoos visible on hands and neck",
+   "img": "images/i1793885007609.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885041444",
+   "cat": "c1793884057702",
+   "desc": "black fitted long-sleeved shirt, high neckline, distressed gray cross graphic on the chest, tight sleeves, black leather harness straps around shoulders, black tactical-style arm straps, multiple buckles and metal rings, black fingerless gloves, layered black wrist cuffs, studded bracelets, black choker with silver details, layered silver chains, long cross necklace, black wide-leg cargo trousers, oversized baggy pants, multiple strapped cargo pockets along both thighs and lower legs, horizontal adjustable straps, silver buckles, dangling fabric straps, layered black belts, studded waist belt, silver chains hanging from hips, black chunky platform boots, thick studded soles, black and silver details, tattoos covering both arms",
+   "img": "images/i1793885041444.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885071591",
+   "cat": "c1793884057702",
+   "desc": "oversized white short-sleeved button-up shirt, loose open collar, slightly wrinkled fabric, untucked shirt, thin black distressed markings on the fabric, loose red necktie hanging untied around the neck, long narrow red tie, black shoulder bag with thick straps, black backpack strap over shoulder, layered silver necklaces, multiple thin chains, black choker, cross pendant, black distressed skinny jeans, dark charcoal denim, red and black graphic print covering one leg, large red skull illustration on lower thigh, red paint-like patterns along the leg, black ripped denim details, multiple black belts with silver buckles, studded waist belt, silver chains hanging from hips, black fingerless gloves, black leather wristbands, black chunky platform shoes, thick studded soles, silver metal details, tattoos covering both arms and hands",
+   "img": "images/i1793885071591.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885377251",
+   "cat": "c1793884057702",
+   "desc": "oversized black knit sweater, loose wide sleeves, horizontal dark red stripes across chest and sleeves, distressed knitted fabric, multiple large holes and tears around shoulders, exposed skin through ripped knit, one shoulder partially exposed, uneven neckline, long sleeves covering wrists, black wide-leg distressed cargo jeans, extremely baggy trousers, heavily ripped knees and thighs, shredded denim strips, multiple hanging fabric straps, layered black belts with silver buckles, studded belt, multiple silver chains hanging from waist, long dangling cross pendant attached to chain, black choker with silver studs, layered silver necklaces, black fingerless gloves, black chunky platform boots, thick studded soles, silver metal details",
+   "img": "images/i1793885377251.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885470071",
+   "cat": "c1793884057702",
+   "desc": "oversized white button-up shirt, loose wrinkled fabric, black graphic print across chest, partially unbuttoned collar, loose black necktie hanging down, long black oversized coat, open front, wide flowing coat panels, oversized sleeves, black inner lining, black wide-leg trousers, extremely baggy floor-length pants, multiple cargo pockets, long hanging utility straps, black belts with silver buckles, multiple silver chains hanging from waistband, dangling metal rings, layered black waist straps, black choker with silver studs, layered silver necklaces, long cross pendant, black chunky platform boots, thick soles, silver metal details",
+   "img": "images/i1793885470071.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885503570",
+   "cat": "c1793884057702",
+   "desc": "cropped black and dark red striped long-sleeved top, distressed knitted fabric, horizontal red stripes across chest and sleeves, torn open-knit sections, black fishnet mesh panel covering exposed abdomen, cropped hem, black shorts with multiple belts, layered studded black belts with silver buckles, low-rise shorts, black distressed fabric, red graphic markings on shorts, multiple dangling chains, silver chain draped across hips, black garter straps around thighs, one thigh wrapped with black straps and metal buckles, exposed legs, black scrunched leg warmers, distressed black fabric around ankles, black lace-up combat boots, chunky platform soles, multiple silver eyelets, metal buckles, black choker with studs, layered silver necklaces, black fingerless gloves",
+   "img": "images/i1793885503570.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885696658",
+   "cat": "c1793885559384",
+   "desc": "black sleeveless high-neck fitted top, black halter-neck top, high collar covering the neck, sleeveless design with exposed shoulders and arms, snug form-fitting fabric, smooth matte black material, tucked into a long black pleated skirt, floor-length pleated skirt, wide flowing silhouette, deep vertical pleats, heavy structured fabric, layered overlapping skirt panels, high-waisted skirt, multiple black belts wrapped around the waist, layered waist belts, wide black leather belts with rectangular silver buckles, additional narrow straps hanging from the waist, long dangling belt ends, black loose trousers underneath the skirt, black tabi-style sandals, open-toe black platform sandals, thick flat soles, straps crossing over the feet, black ankle wraps, wide silver metallic choker, polished rectangular metal collar",
+   "img": "images/i1793885696658.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885806573",
+   "cat": "c1793884057702",
+   "desc": "oversized faded charcoal gray graphic t-shirt, washed-out vintage print, intricate dark ornamental design on the chest, layered over a long-sleeved light gray shirt, visible sleeves extending past the short sleeves, loose layered streetwear, black wide-leg jeans, extremely baggy denim trousers, low-rise pants, silver studs along the outer seams, subtle metallic details, black belt, silver chain hanging from waistband, black crossbody bag, thick black shoulder strap, layered silver necklaces, dark pendant, black wrist accessories, black and gray chunky sneakers",
+   "img": "images/i1793885806573.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793885955418",
+   "cat": "c1793885559384",
+   "desc": "traditional Japanese white hooded kimono, oversized white outer robe, large hood with deep red inner lining, wide flowing sleeves, extra-long sleeves extending past the wrists, floor-length robe with a long trailing hem, white silk fabric with subtle pale floral jacquard patterns, glossy satin-like texture, red lining visible along sleeve edges and inner panels, layered white kimono, deep red inner kimono, overlapping V-shaped collar, red trim along neckline, multiple long white fabric panels draping down the front, wide white obi sash wrapped around the waist, red fabric belt underneath, long red ribbon straps crossing diagonally over the chest, decorative red Japanese mizuhiki knot ornament attached to the chest, intricate ornamental cord knot, long red tassels hanging from the ornament, loose red fabric panels extending down the front, flowing layered robe, white tabi socks, red thong straps, black wooden geta sandals with thick elevated soles, traditional Japanese footwear",
+   "img": "images/i1793885955418.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886218633",
+   "cat": "c1793886127697",
+   "desc": "long black oversized trench coat, high stiff collar covering the neck, front partially open, long wide coat panels reaching below the knees, structured shoulders, loose oversized sleeves, black matte fabric, dark gray leather-like inserts across shoulders and chest, gray panels along the front edges, horizontal gray bands around sleeves, multiple black straps with silver buckles on shoulders and upper arms, decorative metal fasteners, black fitted high-neck shirt underneath, layered black waist belt, wide black belt with rectangular silver buckle, additional narrow belts around waist, long black pleated wide-leg trousers, extremely loose floor-length pants, black fabric straps hanging from coat and waist, adjustable buckles near lower coat panels, silver chains attached to belt loops, long silver cross necklace, black chunky platform boots, thick lug soles, silver metal eyelets, black leather gloves",
+   "img": "images/i1793886218633.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886259258",
+   "cat": "c1793886127697",
+   "desc": "oversized black hooded long coat, large deep hood covering the head, loose open-front coat, wide draping sleeves, coat slipping off one shoulder, long black outerwear reaching below the knees, distressed black fabric, layered coat panels, black sleeveless ribbed turtleneck top, fitted high-neck shirt, exposed shoulders and upper arms, black leather harness straps over shoulders, multiple silver buckles and metal rings, black arm strap around upper arm, black fingerless gloves, wide black pleated skirt-like trousers, extremely wide floor-length black pants, layered long fabric panels, multiple black straps hanging vertically from waist and thighs, silver buckles along straps, layered black belts with rectangular metal buckles, multiple silver chains hanging from hips, dangling metal rings and cross charms, black choker with silver rings, layered silver necklaces, long cross pendant, black chunky platform boots",
+   "img": "images/i1793886259258.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886519384",
+   "cat": "c1793885559384",
+   "desc": "black and white traditional Japanese shinigami lieutenant outfit, black inner kimono, deep V-shaped overlapping neckline, long black kimono robe, wide flowing sleeves, loose oversized sleeves with white inner lining, white inner sleeve panels visible at the cuffs, long white haori draped over the shoulders, open-front white haori with black inner lining, asymmetrical layered robe, long white fabric panels hanging down both sides, floor-length black hakama trousers, extremely wide pleated hakama, loose flowing black fabric, white braided waist cord, thick white obi sash wrapped around the waist, loosely tied knot at the front, long white sash ends hanging down, black katana sheath attached at the waist, traditional Japanese sword, black wrapped katana handle with white diamond pattern, ornate dark metal sword guard, sword hanging diagonally at the hip, black and white traditional Japanese sandals, white tabi socks, exposed toes, black neck tattoo, intricate black tattoos on forearms, silver rings, small dangling earrings, long loose robe reaching the floor, layered flowing fabric, traditional shinigami uniform, lieutenant uniform, Japanese-inspired layered clothing",
+   "img": "images/i1793886519384.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1793886812854",
+   "cat": "c1793885559384",
+   "desc": "traditional Japanese black kimono, black inner kimono with overlapping V-shaped collar, white under-collar visible at neckline, long black outer haori, oversized wide sleeves, loose flowing fabric, floor-length black haori, open front, layered black robes, subtle textured fabric, traditional Japanese family crest emblems, small white circular kamon symbols on chest and sleeves, black and gray striped hakama trousers, high-waisted pleated hakama, fine vertical alternating gray and black stripes, wide traditional obi belt, layered gray striped waist sash, large fluffy white waist ornament, white ornamental pom-pom attached to the front of the obi, long white tassel hanging from waist ornament, traditional Japanese sandals, black wooden geta sandals, white tabi socks, holding a folded white sensu fan, long narrow folding fan with pale wooden ribs, white tassel attached to fan, black circular ear gauges, minimal silver accessories",
+   "img": "images/i1793886812854.jpg",
+   "fav": false
+  }
+ ]
 }
