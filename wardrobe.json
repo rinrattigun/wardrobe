@@ -11,6 +11,10 @@
   {
    "id": "c1793886127697",
    "name": "Дарк"
+  },
+  {
+   "id": "c1795267839586",
+   "name": "Кай"
   }
  ],
  "items": [
@@ -145,6 +149,76 @@
    "cat": "c1793885559384",
    "desc": "traditional Japanese black kimono, black inner kimono with overlapping V-shaped collar, white under-collar visible at neckline, long black outer haori, oversized wide sleeves, loose flowing fabric, floor-length black haori, open front, layered black robes, subtle textured fabric, traditional Japanese family crest emblems, small white circular kamon symbols on chest and sleeves, black and gray striped hakama trousers, high-waisted pleated hakama, fine vertical alternating gray and black stripes, wide traditional obi belt, layered gray striped waist sash, large fluffy white waist ornament, white ornamental pom-pom attached to the front of the obi, long white tassel hanging from waist ornament, traditional Japanese sandals, black wooden geta sandals, white tabi socks, holding a folded white sensu fan, long narrow folding fan with pale wooden ribs, white tassel attached to fan, black circular ear gauges, minimal silver accessories",
    "img": "images/i1793886812854.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795267914469",
+   "cat": "c1795267839586",
+   "desc": "tight white short-sleeved athletic shirt, fitted sports top, oversized light grey windbreaker jacket, open windbreaker, jacket slipping off shoulders, black athletic shorts, black compression shorts underneath, white crew socks, grey running sneakers, black thigh strap",
+   "img": "images/i1795267914469.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795267955218",
+   "cat": "c1795267839586",
+   "desc": "black sleeveless high-neck athletic top, fitted compression tank top, sheer light grey oversized zip-up windbreaker, translucent fabric, open jacket, loose sleeves, black short athletic shorts, tight black leggings, white crew socks, white running sneakers, black belt, black waist strap",
+   "img": "images/i1795267955218.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795267984413",
+   "cat": "c1795267839586",
+   "desc": "black sleeveless high-neck compression shirt, fitted athletic tank top, black arm warmers, fingerless gloves, black loose baggy track pants, wide-leg sports pants, white side stripes, grey sweatshirt tied around waist, long hanging sweatshirt sleeves, black upper arm phone armband, grey running sneakers",
+   "img": "images/i1795267984413.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268090746",
+   "cat": "c1795267839586",
+   "desc": "oversized light grey zip-up hoodie, open hoodie, dropped shoulders, loose long sleeves, graphic prints on sleeves, dark grey oversized t-shirt underneath, loose distressed blue-grey jeans, heavily ripped knees, frayed denim, chain wallet, silver waist chains, black belt, chunky grey sneakers",
+   "img": "images/i1795268090746.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268129988",
+   "cat": "c1795267839586",
+   "desc": "oversized dark brown bomber jacket, loose leather-like jacket, dropped shoulders, oversized sleeves, brown plaid button-up shirt underneath, layered open shirt, loose white t-shirt, very baggy cream cargo trousers, wide-leg trousers, large side cargo pockets, hanging belt straps, over-ear headphones around neck",
+   "img": "images/i1795268129988.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268154169",
+   "cat": "c1795267839586",
+   "desc": "fitted dark brown ribbed turtleneck sweater, long sleeves, high neck, dark grey skinny jeans, slim denim trousers, black leather belt, silver belt buckle, long fringed grey shawl draped over shoulders, oversized fringed scarf, long dangling scarf ends, thin silver necklace",
+   "img": "images/i1795268154169.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268183996",
+   "cat": "c1795267839586",
+   "desc": "oversized cream and pale lavender striped sweater, thick knitted fabric, fluffy knit texture, dropped shoulders, loose long sleeves, oversized sleeves, wide neckline, loose white cargo pants, baggy trousers, large side cargo pockets, elastic waistband, white sneakers",
+   "img": "images/i1795268183996.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268207138",
+   "cat": "c1795267839586",
+   "desc": "oversized long black coat, loose black overcoat, wide lapels, dropped shoulders, long sleeves, white button-up dress shirt, loose black necktie, untucked shirt, very wide black trousers, baggy tailored pants, black belt, black leather shoes",
+   "img": "images/i1795268207138.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268243059",
+   "cat": "c1795267839586",
+   "desc": "oversized off-shoulder cream knitted sweater, wide boat neckline, exposed shoulders, loose long sleeves, dropped shoulders, chunky knit texture, loose brown and grey plaid pajama pants, wide-leg pajama trousers, elastic waistband, plaid pattern",
+   "img": "images/i1795268243059.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268279526",
+   "cat": "c1795267839586",
+   "desc": "oversized dark charcoal zip-up hoodie, open hoodie, dropped shoulders, loose sleeves, oversized hood, plain white t-shirt underneath, loose dark grey sweatpants, extremely baggy sweatpants, wide-leg trousers, elastic waistband, white drawstrings, side pockets, fluffy cat-shaped house slippers",
+   "img": "images/i1795268279526.jpg",
    "fav": false
   }
  ]
