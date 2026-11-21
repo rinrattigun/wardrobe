@@ -15,6 +15,10 @@
   {
    "id": "c1795267839586",
    "name": "Кай"
+  },
+  {
+   "id": "c1795268501731",
+   "name": "Парад"
   }
  ],
  "items": [
@@ -219,6 +223,62 @@
    "cat": "c1795267839586",
    "desc": "oversized dark charcoal zip-up hoodie, open hoodie, dropped shoulders, loose sleeves, oversized hood, plain white t-shirt underneath, loose dark grey sweatpants, extremely baggy sweatpants, wide-leg trousers, elastic waistband, white drawstrings, side pockets, fluffy cat-shaped house slippers",
    "img": "images/i1795268279526.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268542192",
+   "cat": "c1795268501731",
+   "desc": "long black gothic tailcoat, oversized black coat, wide sleeves, burgundy inner lining, dark burgundy embroidered waistcoat, black high-waisted wide-leg trousers, fitted black belt with silver buckle, layered waist chains, silver chain accessories, burgundy floral embroidery on coat panels, decorative silver brooch with red gemstone, black dress shoes",
+   "img": "images/i1795268542192.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268564401",
+   "cat": "c1795268501731",
+   "desc": "flowing white off-shoulder blouse, asymmetrical neckline, exposed shoulder, oversized translucent bishop sleeves, wide draped sleeves, ruffled cuffs, delicate lavender floral embroidery, sheer layered fabric, fitted dark corset belt, wide black waist belt, decorative silver buckles, layered lavender sash, long flowing lavender fabric panels, loose lavender wide-leg trousers, silver waist chains, white platform shoes",
+   "img": "images/i1795268564401.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268587780",
+   "cat": "c1795268501731",
+   "desc": "black high-neck fitted shirt, black tailored waistcoat, fitted black vest, intricate silver floral embroidery, long black wide-leg trousers, high-waisted trousers, ornate black leather belt, layered silver chain belt, decorative silver buckles, white ruffled shirt cuffs, long asymmetrical black cape panels, translucent grey embroidered fabric draped from waist, silver ornamental shoulder chain, black platform shoes",
+   "img": "images/i1795268587780.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268633542",
+   "cat": "c1793885559384",
+   "desc": "layered black kimono robe, oversized wide sleeves, dark burgundy inner lining, black high-neck inner garment, deep red fabric collar, intricate red dragon embroidery, embroidered floral patterns, layered black and burgundy robe panels, wide black obi belt, multiple leather waist straps, silver chain belt, long burgundy hanging tassels, decorative metal ornaments, black wide-leg hakama trousers, black platform sandals",
+   "img": "images/i1795268633542.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268657699",
+   "cat": "c1793885559384",
+   "desc": "layered pale lavender kimono robe, oversized open-front haori, wide flowing sleeves, translucent outer robe, soft white fur shoulder stole, fluffy fur trim, embroidered floral patterns, fitted dark lavender inner vest, high-neck inner shirt, layered silver necklaces, ornate wide silver obi belt, decorative round metal buckles, dangling gemstone ornaments, long silver chains, hanging white tassels, layered lavender hakama trousers, pale lavender fabric sash, white platform shoes",
+   "img": "images/i1795268657699.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268747873",
+   "cat": "c1795268501731",
+   "desc": "long flowing white kimono robe, deep V-neckline, overlapping front panels, translucent wide bishop sleeves, oversized flowing sleeves, sheer layered fabric, delicate white floral embroidery, ornate beige embroidered corset, fitted waist corset, intricate gold filigree patterns, decorative floral lace, wide corset belt, layered silver waist chains, long dangling metal chains, decorative silver charms, long flowing white skirt panels, layered asymmetrical hem, white platform sandals with metallic buckles",
+   "img": "images/i1795268747873.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268800418",
+   "cat": "c1795268501731",
+   "desc": "oversized white kimono robe, deep V-neckline, overlapping front panels, wide flowing bishop sleeves, translucent white fabric, intricate burgundy floral embroidery, red floral branch patterns, embroidered sleeve details, dark burgundy high-neck inner shirt, layered red fabric collar, wide black obi belt, ornate silver waist buckle, layered black and burgundy waist straps, multiple dangling silver chains, long burgundy fabric tassels, layered black hakama trousers, wide flowing trouser legs, black platform sandals",
+   "img": "images/i1795268800418.jpg",
+   "fav": false
+  },
+  {
+   "id": "i1795268873929",
+   "cat": "c1795268501731",
+   "desc": "black sleeveless high-neck top, fitted black vest, deep burgundy fabric panels, asymmetrical red sash, black leather shoulder harness, multiple leather straps across chest, decorative silver buckles, oversized black kimono sleeves draped around arms, long burgundy fabric panels, layered black wide-leg hakama trousers, multiple leather waist belts, silver chain accessories, hanging metal ornaments, long red tassels, black platform sandals",
+   "img": "images/i1795268873929.jpg",
    "fav": false
   }
  ]
